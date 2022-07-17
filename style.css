@@ -5,7 +5,7 @@
 }
 
 .header-right, .titletext, .bodytext, .title-boxes, .quote, .photo-box,
-.jimin, .jhope, .v, .suga, .jin, .jungkook {
+.jimin, .jhope, .v, .suga, .jin, .jungkook, .c2a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -107,6 +107,7 @@ button {
     height: 150px;
     border-radius: 10px;
     gap: 10px;
+    padding: 5px;
 }
 
 .jimin, .jhope, .v, .suga, .rm, .jin, .jungkook {
@@ -148,6 +149,11 @@ button {
 .footer {
     background-color: #1f2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    height: 80px;
 }
 
 a {
@@ -157,4 +163,36 @@ a {
 
 p {
     margin: 0;
+}
+
+.c2a {
+    display: flex;
+    margin: 80px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around
+
+}
+
+.c2a-left, .c2a-right {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 10px;
+}
+
+.c2aheader {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.c2atext {
+    font-size: 15px;
+}
+
+.button2 {
+    border: 2px solid white;
 }
